@@ -19,7 +19,7 @@ function adicionar(){
 
 function mostrarLista(){
     let listaCompleta = document.querySelector('p')
-    listaCompleta.innerHTML= (`Lista de compras: ${frutas.join(', \n')}`)
+    listaCompleta.innerHTML= (`Lista de compras: ${frutas.join(', ')}`)
 }
 
 

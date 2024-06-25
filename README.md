@@ -1,4 +1,4 @@
-Projeto - Minha Lista de Compras
+## Projeto - Minha Lista de Compras
 
 Este é um projeto simples de uma lista de compras em HTML, CSS e JavaScript. Criado com o ituito de solidificar meus conhecimentos na área.
 

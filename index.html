@@ -14,11 +14,21 @@
             <h1>Minha lista de compras</h1>
             <label for="iitem">Item:</label>
             <input type="text" name="item" id="iitem" class="item" ><br>
+            
             <label for="icategoria">Categoria:</label>
-            <input type="text" name="categoria" id="icategoria" > <br>
-            <input onclick="adicionar()" type="button" value="Adicionar">
-            <input onclick="mostrarLista()" type="button" value="Mostrar Lista">
-            <input onclick="criarNova()" type="button" value="Criar nova lista">
+            <input list="categorias" name="categoria" id="icategoria"><br>
+            <datalist id="categorias">
+                <option value="frutas">
+                <option value="laticínios">
+                <option value="limpeza">
+                <option value="frios">
+                <option value="outros">
+            </datalist>
+
+            <input class="botao" onclick="adicionar()" type="button" value="Adicionar">
+            <input class="botao" onclick="mostrarLista()" type="button" value="Mostrar Lista">
+            <input class="botao" onclick="criarNova()" type="button" value="Criar nova lista">
+            
             
         </form>
         <h2>Lista de Compras:</h2>

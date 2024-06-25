@@ -12,7 +12,7 @@ function adicionar(){
     let adicionado = document.querySelector('#adicionado')
     adicionado.innerHTML = ('Novo produto adicionado!')
     
-    lista.push(item);   
+    lista.push(item);  
     
     limparCampo()    
     console.log(lista)  
@@ -48,3 +48,6 @@ function mostrarLista(){
     adicionado.innerHTML = '';
 }
 
+function mostrarPorCategoria(){
+
+}
